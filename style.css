@@ -1,0 +1,49 @@
+body {
+    background-color: #FFF3EA;
+    margin-top : 20px;
+    margin-left : 25% ;
+    margin-right : 25% ;
+}
+#cookieimg {
+    height: 269px;
+    width: 262px;
+    background-color: #FFF3EA;
+    padding : 0px;
+}
+
+#cookie {
+    padding : 0px;
+    border: none;
+}
+
+#doubler {
+    height: 80px;
+    width: 75px;
+    background-color: #EFA35A;
+    padding : 0px;
+}
+
+#x2 {
+    padding : 0px;
+    margin : 0px;
+    border: none;
+}
+
+#auto {
+    height: 80px;
+    width: 75px;
+    background-color: #EFA35A;
+    padding : 0px;
+}
+
+#autoclick {
+    padding : 0px;
+    margin : 0px;
+    border: none;
+}
+
+.shopbox {
+    background-color: #EFA35A;
+}
+
+.row {}
