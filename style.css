@@ -63,3 +63,16 @@ body {
     background-color: #EFA35A;
     padding : 0px;
 }
+
+#titlecookie {
+    height : 40px;
+    width: 40px;
+}
+
+h1 {
+        font-family: "Ingrid Darling", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100px;
+      }
+      
