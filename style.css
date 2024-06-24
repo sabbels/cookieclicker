@@ -27,6 +27,7 @@ body {
     padding : 0px;
     margin : 0px;
     border: none;
+    background-color: #EFA35A;
 }
 
 #auto {
@@ -40,6 +41,7 @@ body {
     padding : 0px;
     margin : 0px;
     border: none;
+    background-color: #EFA35A;
 }
 
 .shopbox {
@@ -47,3 +49,17 @@ body {
 }
 
 .row {}
+
+#jar {
+    padding : 0px;
+    margin : 0px;
+    border: none;
+    background-color: #EFA35A;
+}
+
+#cookiejar {
+    height: 80px;
+    width: 75px;
+    background-color: #EFA35A;
+    padding : 0px;
+}
