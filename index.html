@@ -14,32 +14,36 @@
 </head>
 <body>
     <main>
-        <div class="title">
-            <h1 class="text-center col-12 mt-5">C<img id=titlecookie alt="o" src="images\cookie title.png"><img id=titlecookie alt="o" src="images\cookie title.png">kie Clicker</h1>
+        <div class="parent-title justify-content-center mt-3 mx-5">
+            <h1 class="title text-center align-items-center justify-content-center px-0">
+                C
+                <img id=titlecookie alt="o" src="images\cookie title.png">
+                <img id=titlecookie alt="o" src="images\cookie title.png">
+                kie Clicker</h1>
         </div>
         <div class="row justify-content-evenly">
-            <div class="col-6 mt-5">
+            <div class="col-12 col-md-6 mt-5 p-md-0">
                 <button id="cookie"><img id="cookieimg" alt="Image de cookie à clicker" src="images\cookie button.webp"></button>
             </div>
-            <div class="col-6 mt-5">
-                <div class="shopbox ">
-                    <div class="row">
-                        <button class="col-md-4" id="x2"><img id="doubler" alt="Dessin d'un sac de farine" src="images\flour.png"></button>
-                        <p class="col-md-5">Double your cookie production!</p>
+            <div class="col-12 col-md-6 mt-md-5 my-sm-0">
+                <div class="shopbox row">
+                    <div class="shopbox-col row align-items-center">
+                        <a class="shopbox-col col-md-4 text-center" id="x2"><img id="doubler" alt="Dessin d'un sac de farine" src="images\flour.png"></a>
+                        <p class="col-md-8 mb-0 text-center">Double your cookie production!</p>
                     </div>
                     
-                    <div class="row">
-                        <button class="col-md-4" id="autoclick"><img id="auto" alt="Dessin d'une tablette de chocolat" src="images\chocolate.png"></button>
-                        <p class="col-md-5">Let the machines do their thing!</p>
-                    </div>
-                    <div class="row">
-                        <button class="col-md-4" id="jar"><img id="cookiejar" alt="Dessin d'une cookie jar" src="images\cookie jar.png"></button>
+                    <div class="row align-items-center">
+                        <a class="col-md-4 text-center" id="autoclick"><img id="auto" alt="Dessin d'une tablette de chocolat" src="images\chocolate.png"></a>
+                        <p class="col-md-8 mb-0 text-center">Let the machines do their thing!</p>
                     </div>
                 </div>
             </div>
         </div>
-            <p>Compteur: <span id="counter">0</span></p>
 
+        <div class="row justify-content-center align-content-center mt-3" id="counter-parent">
+            <div class="col-12 justify-content-center"></div>
+            <p class="text-center m-5 text-light">Compteur: <span id="counter" class="">0</span></p>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>
