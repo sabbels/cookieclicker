@@ -14,4 +14,4 @@ We used a few tools to keep our project organized :
 
 Our front-end part includes notions from Bootstrap as well. 
 
-Our final code can be found [here](https://github.com/sabbels/cookieclicker) and the product can be visualized [here][]
+Our final code can be found [here](https://github.com/sabbels/cookieclicker) and the product can be visualized [here](https://sabbels.github.io/cookieclicker/)[]
